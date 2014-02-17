@@ -20,7 +20,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "generator-gogamatic"
+        "url": "https://github.com/gogamoga/generator-gogamatic.git"
     },
     "licenses": [
         {
