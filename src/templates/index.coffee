@@ -3,4 +3,5 @@ if typeof curl is 'undefined' # Load curl if using nodejs
   
 curl
   paths:
+    baseUrl: 'app'
     lib: '../bower_components'
