@@ -1,0 +1,38 @@
+{
+    "name": "<%= slug %>",
+    "version": "<%= version %>",
+    "main": "app/index.js",
+    "description": "<%= description %>",
+    "homepage": "<%= homepage %>",
+    "author": {
+        "name": "<%= author %>",
+        "email": "<%= email %>",
+        "url": "<%= home %>"
+    },
+    "keywords": [
+        "gogamatic"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "<%= repository %>"
+    },
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ],
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "files": ["app"],
+    "dependencies": {},
+    "devDependencies": {
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt-contrib-coffee": "~0.9.0",
+        "grunt-contrib-clean": "~0.5.0",
+        "grunt-contrib-copy": "~0.5.0",
+        "grunt-coffeelint": "~0.0.8",
+        "matchdep": "~0.3.0",
+        "grunt": "~0.4.2"
+    }
+}

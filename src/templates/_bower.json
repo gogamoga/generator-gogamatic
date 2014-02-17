@@ -1,0 +1,21 @@
+{
+    "name": "<%= slug %>",
+    "version": "<%= version %>",
+    "homepage": "<%= homepage %>",
+    "authors": [
+        "<%= author %> <<%= email %>>"
+    ],
+    "license": "<%= license %>",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "curl": "~0.8",
+        "wire": "~0.10"
+    }
+}
+
