@@ -1,8 +1,6 @@
-_define = do ->
-  if typeof define is 'function' and define.amd
-    define
-  else
-    (factory) -> module.exports = factory require
-
-do (define = _define) ->
-  # You code here
+if typeof curl is 'undefined' # Load curl if using nodejs
+  require '../bower_components/curl/dist/curl-for-ssjs/curl' 
+  
+curl
+  paths:
+    lib: '../bower_components'
