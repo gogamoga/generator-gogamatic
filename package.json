@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "main": "app/index.js",
     "description": "Gogamatic scaffold generator",
-    "homepage": "https://github.com/gogamoga/generator gogamatic",
+    "homepage": "https://github.com/gogamoga/generator-gogamatic",
     "author": {
         "name": "gogamoga",
         "email": "gogamoga@gmail.com",
