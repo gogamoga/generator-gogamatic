@@ -10,7 +10,8 @@
         "url": "<%= home %>"
     },
     "keywords": [
-        "gogamatic"
+        "gogamatic",
+        "<%= slug %>"
     ],
     "repository": {
         "type": "git",
