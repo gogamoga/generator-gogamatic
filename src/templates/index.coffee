@@ -1,3 +1,8 @@
-define = do ->
-  return define if typeof define is 'function' and define.amd
-  (factory) -> module.exports = factory require
+_define = do ->
+  if typeof define is 'function' and define.amd
+    define
+  else
+    (factory) -> module.exports = factory require
+
+do (define = _define) ->
+  # You code here
