@@ -69,12 +69,14 @@ class GeneratorGogamatic extends yeoman.generators.Base
   app: ->
     @mkdir 'app'
     @mkdir 'src'
+    @mkdir "src/#{@slug}"
     @mkdir 'src/templates'
 
   files: ->
     @template '_package.json', 'package.json'
     @template '_bower.json', 'bower.json'
     @template '_README.md', 'README.md'
+    @template '_main.coffee', 'src/main.coffee'
     @copy 'index.coffee', 'src/index.coffee'
     @copy 'Gruntfile.coffee', 'Gruntfile.coffee'
     @copy 'editorconfig', '.editorconfig'
