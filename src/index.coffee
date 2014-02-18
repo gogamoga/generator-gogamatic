@@ -77,7 +77,7 @@ class GeneratorGogamatic extends yeoman.generators.Base
     @template '_bower.json', 'bower.json'
     @template '_README.md', 'README.md'
     @template '_main.coffee', 'src/main.coffee'
-    @copy 'index.coffee', 'src/index.coffee'
+    @template '_index.coffee', 'src/index.coffee'
     @copy 'Gruntfile.coffee', 'Gruntfile.coffee'
     @copy 'editorconfig', '.editorconfig'
     @copy 'jshintrc', '.jshintrc'
